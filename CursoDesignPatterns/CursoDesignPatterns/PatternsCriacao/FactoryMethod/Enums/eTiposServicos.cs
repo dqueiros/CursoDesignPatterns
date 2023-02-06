@@ -1,4 +1,4 @@
-﻿namespace CursoDesignPatterns.PatternsCriacao.Enums
+﻿namespace CursoDesignPatterns.PatternsCriacao.FactoryMethod.Enums
 {
     public enum eTiposServicos
     {

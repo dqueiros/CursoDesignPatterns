@@ -1,11 +1,6 @@
-﻿using CursoDesignPatterns.PatternsCriacao.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CursoDesignPatterns.PatternsCriacao.FactoryMethod.Enums;
 
-namespace CursoDesignPatterns.PatternsCriacao
+namespace CursoDesignPatterns.PatternsCriacao.FactoryMethod
 {
     public class Client
     {
@@ -26,8 +21,8 @@ namespace CursoDesignPatterns.PatternsCriacao
                 int tipoServico = Convert.ToInt32(Console.ReadLine());
 
                 var servicoProduto = client.Fabricarproduto((eTiposServicos)tipoServico);
-                Console.WriteLine($"Tipo: { servicoProduto.GetType().Name }");
-                
+                Console.WriteLine($"Tipo: {servicoProduto.GetType().Name}");
+
                 Console.Write("Deseja calcular outro serviço? (1-Sim ou 2-Não): ");
                 int resp = Convert.ToInt32(Console.ReadLine());
 

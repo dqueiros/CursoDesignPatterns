@@ -1,8 +1,8 @@
-﻿using CursoDesignPatterns.PatternsCriacao.Enums;
-using CursoDesignPatterns.PatternsCriacao.Interfaces;
-using CursoDesignPatterns.PatternsCriacao.Servicos;
+﻿using CursoDesignPatterns.PatternsCriacao.FactoryMethod.Enums;
+using CursoDesignPatterns.PatternsCriacao.FactoryMethod.Interfaces;
+using CursoDesignPatterns.PatternsCriacao.FactoryMethod.Servicos;
 
-namespace CursoDesignPatterns.PatternsCriacao
+namespace CursoDesignPatterns.PatternsCriacao.FactoryMethod
 {
     public class SelecionaServico : ServicoFactory
     {

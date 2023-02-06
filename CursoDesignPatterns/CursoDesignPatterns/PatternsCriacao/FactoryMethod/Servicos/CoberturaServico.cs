@@ -1,6 +1,6 @@
-﻿using CursoDesignPatterns.PatternsCriacao.Interfaces;
+﻿using CursoDesignPatterns.PatternsCriacao.FactoryMethod.Interfaces;
 
-namespace CursoDesignPatterns.PatternsCriacao.Servicos
+namespace CursoDesignPatterns.PatternsCriacao.FactoryMethod.Servicos
 {
     public class CoberturaServico : IServico
     {
