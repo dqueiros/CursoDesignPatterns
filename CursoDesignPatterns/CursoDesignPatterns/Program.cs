@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CursoDesignPatterns.PatternsEstrutural.Composite;
+using CursoDesignPatterns.PatternsEstrutural.Decorator;
 
 Console.WriteLine("\nCurso Design Patterns\n");
 
 Client client = new Client();
-client.EfetuarCompra();
+client.Consumir();
