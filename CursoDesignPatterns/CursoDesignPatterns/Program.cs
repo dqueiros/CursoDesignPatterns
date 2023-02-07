@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CursoDesignPatterns.PatternsCriacao.Prototype;
+using CursoDesignPatterns.PatternsEstrutural.Adapter;
 
 Console.WriteLine("\nCurso Design Patterns\n");
 
-Client client = new Client();
-client.Consumir();
+CloudComputing cloud = new CloudComputing();
+cloud.ProcessarContas("Setembro");
