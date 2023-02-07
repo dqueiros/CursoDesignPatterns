@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CursoDesignPatterns.PatternsEstrutural.Facade;
+using CursoDesignPatterns.PatternsEstrutural.Proxy;
 
 Console.WriteLine("\nCurso Design Patterns\n");
 
-FacadeManager facade = new FacadeManager();
-facade.ExecutarComplexidade();
+Client client = new Client();
+client.TentarConexaoClientVPN();
