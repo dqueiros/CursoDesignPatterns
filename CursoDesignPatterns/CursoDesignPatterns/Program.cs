@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CursoDesignPatterns.PatternsComportamental.Visitor;
+using CursoDesignPatterns.PatternsComportamental.Command;
 
 
 Console.WriteLine("\nCurso Design Patterns\n");
 
-Fiscal fiscal = new Fiscal();
-fiscal.CalcularImpostos();
+Client client = new Client();
+client.FalarComandos();
