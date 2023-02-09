@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CursoDesignPatterns.PatternsComportamental.Memento;
+using CursoDesignPatterns.PatternsComportamental.State;
 
 
 Console.WriteLine("\nCurso Design Patterns\n");
 
-Videocassete videocassete = new Videocassete();
-videocassete.ExecutarAcaoVideo();
+Client client = new Client();
+client.ExecutarContext();
