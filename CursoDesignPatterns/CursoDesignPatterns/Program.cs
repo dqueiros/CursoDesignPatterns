@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CursoDesignPatterns.PatternsComportamental.Iterator;
+using CursoDesignPatterns.PatternsComportamental.Mediator;
 
 
 Console.WriteLine("\nCurso Design Patterns\n");
 
-Client client = new Client();
-client.ConsumirEstruturaDados();
+Chat chat = new Chat();
+chat.Conversar();
